@@ -464,13 +464,18 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
       >
         <div className="container-1800">
           <div className="section-heading">
-            <h2 className="h2-what-is-kishu">How to buy $BREAST</h2>
-            <div className="accent-large">Buy</div>
+            <h2 className="h2-what-is-kishu" style={{ marginTop: "100px" }}>
+              How to buy $BREAST
+            </h2>
+            <div className="accent-large" style={{ color: "#a6745e" }}>
+              Buy
+            </div>
             <img
               src="images/uni.png"
               loading="lazy"
               alt="pics"
               className="uni-image"
+              style={{ opacity: 0 }}
             />
           </div>
           <div
@@ -573,7 +578,7 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
                   <div className="htb-item">
                     <div className="htb-number">
                       <img
-                        src="images/eth.svg"
+                        src={titkimask}
                         loading="lazy"
                         alt="pics"
                         className="htb-shape"
@@ -598,7 +603,7 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
                   <div className="htb-item">
                     <div className="htb-number">
                       <img
-                        src="images/favicon.png"
+                        src={titkimask}
                         loading="lazy"
                         alt="pics"
                         className="htb-shape"
@@ -626,7 +631,7 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
                   <div className="htb-item">
                     <div className="htb-number">
                       <img
-                        src="images/lnch.svg"
+                        src={titkimask}
                         loading="lazy"
                         alt="pics"
                         className="htb-shape"
@@ -659,8 +664,12 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
       >
         <div className="container-1800">
           <div className="section-heading is--stats">
-            <div className="accent-large">Stats</div>
-            <h2 className="h2-what-is-kishu">Tokenomics</h2>
+            <div className="accent-large" style={{ color: "#a6745e" }}>
+              Stats
+            </div>
+            <h2 className="h2-what-is-kishu" style={{ marginTop: "100px" }}>
+              Tokenomics
+            </h2>
           </div>
           <div
             data-w-id="b83854f4-0edc-97bf-60d8-a3002264f569"
@@ -687,9 +696,10 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
                     src="images/floating-elements.png"
                     loading="lazy"
                     sizes="(max-width: 767px) 100vw, (max-width: 991px) 452.9296875px, 46vw"
-                    srcSet="images/floating-elements-p-500.png 500w, images/floating-elements-p-800.png 800w, images/floating-elements.png 895w"
+                    // srcSet="images/floating-elements-p-500.png 500w, images/floating-elements-p-800.png 800w, images/floating-elements.png 895w"
                     alt="pics"
                     className="image-20"
+                    style={{ opacity: 0 }}
                   />
                 </div>
                 <div className="tokenomics-image _2">
@@ -782,14 +792,16 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
       >
         <div className="container-1800">
           <div className="section-heading is--swap">
-            <div className="accent-large">Swap</div>
+            <div className="accent-large" style={{ color: "#a6745e" }}>
+              Swap
+            </div>
           </div>
           <div className="_2-col-grid is--swap">
             <div
               id="w-node-_88bfb55d-1e28-bbc5-88fe-35f39f0986a2-52018772"
               className="safebreastx-swap---text-container"
             >
-              <h5>DECENTRALIZED EXCHANGE</h5>
+              <h5 style={{ marginTop: "100px" }}>DECENTRALIZED EXCHANGE</h5>
               <h2>SafeBreastX Swap</h2>
               <p className="_w-520">
                 SafeBreastX Swap is our official decentralized exchange (DEX).
@@ -819,12 +831,14 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
                 srcSet="images/purple-paw-2-p-500.png 500w, images/purple-paw-2-p-800.png 800w, images/purple-paw-2.png 837w"
                 alt="pics"
                 className="purple-paw"
+                style={{ opacity: 0 }}
               />
               <img
                 src="images/screnshot.png"
                 loading="lazy"
                 alt="pics"
                 className="safebreastx-swap-screenshot"
+                style={{ opacity: 0 }}
               />
             </div>
           </div>
@@ -839,7 +853,12 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
       <div id="moonmap" className="moonmap">
         <div className="container-1800">
           <div className="section-heading">
-            <div className="accent-large">Moon</div>
+            <div
+              className="accent-large"
+              style={{ color: "#a6745e", marginBottom: "100px" }}
+            >
+              Moon
+            </div>
             <h2 className="h2-moonmap">Roadmap</h2>
             <p className="_w-660 centered">
               $BREAST is a coin that wants to engage its community and donate to
@@ -874,12 +893,13 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
                     srcSet="images/kishu-rocket-stars-p-500.png 500w, images/kishu-rocket-stars-p-800.png 800w, images/kishu-rocket-stars.png 915w"
                     alt="pics"
                     className="rocket-stars"
+                    style={{ opacity: 0 }}
                   />
                   <img
                     src={rooster2}
                     loading="lazy"
                     srcSet="images/kishu-rocket-trail-p-500.png 500w, images/kishu-rocket-trail-p-800.png 800w, images/kishu-rocket-trail.png 805w"
-                    sizes="(max-width: 479px) 100vw, (max-width: 1919px) 671.9921875px, 42vw"
+                    // sizes="(max-width: 479px) 100vw, (max-width: 1919px) 671.9921875px, 42vw"
                     alt="tikimask122"
                     className="rocket-trail"
                   />
@@ -902,10 +922,15 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
                 </div>
                 <div className="moonmap-phase-wrapper">
                   <div className="phase">
-                    <div className="accent-small centered">PHASE 1</div>
+                    <div
+                      className="accent-small centered"
+                      style={{ color: "#a6745e" }}
+                    >
+                      PHASE 1
+                    </div>
                   </div>
                   <div className="phase-details">
-                    <h6 className="phase-status  in-progress">IN PROGRESS</h6>
+                    <h6 className="phase-status in-progress">IN PROGRESS</h6>
                     <h3 className="phase-name">Launch</h3>
                     <div className="phase-activities">
                       <div className="phase-activity-item">
@@ -947,7 +972,12 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
                 </div>
                 <div className="moonmap-phase-wrapper">
                   <div className="phase">
-                    <div className="accent-small centered">PHASE 2</div>
+                    <div
+                      className="accent-small centered"
+                      style={{ color: "#a6745e" }}
+                    >
+                      PHASE 2
+                    </div>
                   </div>
                   <div className="phase-details">
                     <h6 className="phase-status"></h6>
@@ -991,7 +1021,12 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
                 </div>
                 <div className="moonmap-phase-wrapper">
                   <div className="phase">
-                    <div className="accent-small centered">PHASE 3</div>
+                    <div
+                      className="accent-small centered"
+                      style={{ color: "#a6745e" }}
+                    >
+                      PHASE 3
+                    </div>
                   </div>
                   <div className="phase-details">
                     <h6 className="phase-status"></h6>
@@ -1042,7 +1077,12 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
                 </div>
                 <div className="moonmap-phase-wrapper">
                   <div className="phase">
-                    <div className="accent-small centered">PHASE 4</div>
+                    <div
+                      className="accent-small centered"
+                      style={{ color: "#a6745e" }}
+                    >
+                      PHASE 4
+                    </div>
                   </div>
                   <div className="phase-details">
                     <h6 className="phase-status"></h6>
@@ -1097,7 +1137,12 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
       >
         <div className="container-1800">
           <div className="section-heading is--team">
-            <div className="team-section accent-large">Community</div>
+            <div
+              className="team-section accent-large"
+              style={{ color: "#a6745e" }}
+            >
+              Community
+            </div>
           </div>
           <div className="_2-col-grid offset-up">
             <div
@@ -1181,7 +1226,12 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
       <section id="donate" className="donate">
         <div className="container-1800">
           <div className="section-heading is--donate">
-            <div className="team-section accent-large">Donations</div>
+            <div
+              className="team-section accent-large"
+              style={{ color: "#a6745e" }}
+            >
+              Donations
+            </div>
           </div>
           <div className="_2-col-grid is--donate">
             <div

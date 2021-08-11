@@ -253,7 +253,7 @@ function App() {
         </div>
       </section>
 
-      <section className="front-page">
+      <section className="front-page w-row">
         <div
           style={{
             backgroundImage: `url(${waterfall})`,
@@ -464,12 +464,8 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
       >
         <div className="container-1800">
           <div className="section-heading">
-            <h2 className="h2-what-is-kishu" style={{ marginTop: "100px" }}>
-              How to buy $BREAST
-            </h2>
-            <div className="accent-large" style={{ color: "#a6745e" }}>
-              Buy
-            </div>
+            <h1 style={{ color: "#a6745e" }}>Buy</h1>
+            <h2>How to buy $BREAST</h2>
             <img
               src="images/uni.png"
               loading="lazy"
@@ -478,7 +474,7 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
               style={{ opacity: 0 }}
             />
           </div>
-          <div
+          {/* <div
             data-w-id="8a60e5e9-f138-7430-05c7-8063c205bff1"
             data-animation-type="lottie"
             data-src="documents/frisbee-dog.json"
@@ -490,7 +486,7 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
             data-default-duration="2.0020019204587935"
             data-duration={0}
             className="lottie-animation-2"
-          ></div>
+          ></div> */}
           <div className="dog-frisbee-wrapper">
             {/* <div id="w-node-_82d26454-4b9c-a99d-09e5-0cacf9e7004a-52018772" data-w-id="82d26454-4b9c-a99d-09e5-0cacf9e7004a" className="frisbee-wrapper">
               <img src="images/frisbee.png" loading="lazy" width={1338} sizes="100vw" srcSet="images/frisbee-p-500.png 500w, images/frisbee-p-800.png 800w, images/frisbee-p-1080.png 1080w, images/frisbee-p-1600.png 1600w, images/frisbee-p-2000.png 2000w, images/frisbee.png 2776w" alt='pics' className="image-3" />
@@ -501,13 +497,19 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
               <img src="images/Shape-3.png" loading="lazy" sizes="100vw" srcSet="images/Shape-3-p-500.png 500w, images/Shape-3.png 1024w" alt='pics' className="image-6" />
             </div> */}
           </div>
-          <div className="htbs-wrapper">
+          <div
+            className="htbs-wrapper text-center"
+            style={{ fontSize: "20px" }}
+          >
             <div
               data-duration-in={300}
               data-duration-out={100}
               className="tabs w-tabs"
             >
-              <div className="tabs-menu w-tab-menu">
+              <div
+                className="tabs-menu w-tab-menu"
+                style={{ display: "inline" }}
+              >
                 <a
                   data-w-tab="Tab 1"
                   className="htb-tab w-inline-block w-tab-link w--current"
@@ -660,14 +662,14 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
       <section
         id="stats"
         className="stats"
-        style={{ backgroundColor: "#c8f7a3" }}
+        style={{ backgroundColor: "#c8f7a3", marginTop: "500px" }}
       >
         <div className="container-1800">
           <div className="section-heading is--stats">
             <div className="accent-large" style={{ color: "#a6745e" }}>
               Stats
             </div>
-            <h2 className="h2-what-is-kishu" style={{ marginTop: "100px" }}>
+            <h2 className="h2-what-is-kishu" style={{ marginTop: "50px" }}>
               Tokenomics
             </h2>
           </div>
@@ -675,21 +677,21 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
             data-w-id="b83854f4-0edc-97bf-60d8-a3002264f569"
             className="stats-scrolling-container"
           >
-            <div className="_2-col-grid bottom-padding is--sticky">
+            <div
+              className="bottom-padding d-lg-flex d-md-flex"
+              // style={{ display: "flex", justifyContent: "center" }}
+            >
               <div
                 id="w-node-b83854f4-0edc-97bf-60d8-a3002264f56b-52018772"
                 className="left-col"
               >
-                <div
-                  data-w-id="bbec4ffd-9457-b4fd-d633-2fb6ea1e88f5"
-                  className="tokenomics-image"
-                >
+                <div data-w-id="bbec4ffd-9457-b4fd-d633-2fb6ea1e88f5">
                   <img
+                    style={{ display: "flex" }}
                     src={rooster7}
                     loading="lazy"
-                    sizes="(max-width: 767px) 100vw, (max-width: 991px) 452.9296875px, (max-width: 1919px) 46vw, 43vw"
+                    // sizes="(max-width: 767px) 100vw, (max-width: 991px) 452.9296875px, (max-width: 1919px) 46vw, 43vw"
                     alt="pics"
-                    className="eyeglasses-kishu"
                   />
                   <div className="floating-elements-container" />
                   <img
@@ -730,10 +732,11 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
               <div
                 id="w-node-b83854f4-0edc-97bf-60d8-a3002264f576-52018772"
                 className="right-col"
+                // style={{ margin: "40px", border: "1px solid black" }}
               >
                 <div
                   data-w-id="f260eb35-8ea4-0380-4a92-2422d676718f"
-                  className="tokenomics-text-item"
+                  // className="tokenomics-text-item"
                 >
                   <div className="flex-vertical">
                     <h3 className="red is--tokenomics">$BREAST</h3>
@@ -748,7 +751,7 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
                     <h5 className="gray">PER TRANSACTION</h5>
                   </div>
                 </div>
-                <div
+                {/* <div
                   id="price-chart"
                   data-w-id="911dc789-cd8c-3157-6ceb-b918bd87e7db"
                   className="tokenomics-text-item"
@@ -779,7 +782,7 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
                       </a>
                     </h5>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -800,10 +803,14 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
             <div
               id="w-node-_88bfb55d-1e28-bbc5-88fe-35f39f0986a2-52018772"
               className="safebreastx-swap---text-container"
+              // style={{ padding: "0 20px" }}
             >
               <h5 style={{ marginTop: "100px" }}>DECENTRALIZED EXCHANGE</h5>
               <h2>SafeBreastX Swap</h2>
-              <p className="_w-520">
+              <p
+                className="_w-520"
+                style={{ fontSize: "15px", padding: "0 20px" }}
+              >
                 SafeBreastX Swap is our official decentralized exchange (DEX).
                 It gives holders the ability to swap any ERC20 token for another
                 one. It is powered by Uniswap, the safest and most trusted DEX
@@ -860,7 +867,10 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
               Moon
             </div>
             <h2 className="h2-moonmap">Roadmap</h2>
-            <p className="_w-660 centered">
+            <p
+              className="_w-660 centered "
+              style={{ fontSize: "15px", padding: "0 20px" }}
+            >
               $BREAST is a coin that wants to engage its community and donate to
               charity through its different features.. All features currently
               planned are laid out in the roadmap
@@ -932,7 +942,10 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
                   <div className="phase-details">
                     <h6 className="phase-status in-progress">IN PROGRESS</h6>
                     <h3 className="phase-name">Launch</h3>
-                    <div className="phase-activities">
+                    <div
+                      className="phase-activities"
+                      style={{ fontSize: "15px" }}
+                    >
                       <div className="phase-activity-item">
                         <p className="no-bottom-padding">
                           ✅ Whitepaper - roadmap{" "}
@@ -982,7 +995,10 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
                   <div className="phase-details">
                     <h6 className="phase-status"></h6>
                     <h3 className="phase-name">Growth</h3>
-                    <div className="phase-activities">
+                    <div
+                      className="phase-activities"
+                      style={{ fontSize: "15px" }}
+                    >
                       <div className="phase-activity-item">
                         <p className="no-bottom-padding">
                           • Pricetracking listings: CoinGecko and CoinMarketCap
@@ -1031,7 +1047,10 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
                   <div className="phase-details">
                     <h6 className="phase-status"></h6>
                     <h3 className="phase-name">Expansion</h3>
-                    <div className="phase-activities">
+                    <div
+                      className="phase-activities"
+                      style={{ fontSize: "15px" }}
+                    >
                       <div className="phase-activity-item">
                         <p className="no-bottom-padding">
                           • DAO governance structure for SafeBreast Foundation{" "}
@@ -1090,7 +1109,10 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
                       Utility
                       <br />
                     </h3>
-                    <div className="phase-activities">
+                    <div
+                      className="phase-activities"
+                      style={{ fontSize: "15px" }}
+                    >
                       <div className="phase-activity-item">
                         <p className="no-bottom-padding">
                           • SafeBreast store (merchandise)
@@ -1139,7 +1161,7 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
           <div className="section-heading is--team">
             <div
               className="team-section accent-large"
-              style={{ color: "#a6745e" }}
+              style={{ color: "#a6745e", zIndex: 3 }}
             >
               Community
             </div>
@@ -1164,12 +1186,12 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
               className="founding-team-text-wrapper"
               style={{ backgroundColor: "#c8f7a3" }}
             >
-              <h2 className="h2-founding-team">
+              <h2 className="h2-founding-team pt-5 ">
                 Telegram
                 <br />
                 Community
               </h2>
-              <p className="_w-660">
+              <p className="_w-660" style={{ fontWeight: "bolder" }}>
                 Feel free to reach out to anyone in the community! We would love
                 to have you. SafeBreast Inu was founded by Chris, he will
                 happily share info about himself with you. Link to his profile
@@ -1225,7 +1247,10 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
       </div>
       <section id="donate" className="donate">
         <div className="container-1800">
-          <div className="section-heading is--donate">
+          <div
+            className="section-heading is--donate"
+            style={{ paddingTop: "20px" }}
+          >
             <div
               className="team-section accent-large"
               style={{ color: "#a6745e" }}
@@ -1239,7 +1264,10 @@ We also burned 35% of total supply, so if as this wallet gets rewards the number
               className="donate-text-wrapper"
             >
               <h2 className="phuddar">OUR Cause..</h2>
-              <p className="_w-520 is--token-code">
+              <p
+                className="_w-520 is--token-code"
+                style={{ fontWeight: "bolder" }}
+              >
                 One In eight women In their lifetime will experience breast
                 cancer. This is something the SafeBreast community cares deeply
                 about. The more transactions on the SafeBreast network the more
